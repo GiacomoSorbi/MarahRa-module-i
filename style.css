@@ -1,0 +1,308 @@
+.navbar .menu1{
+    list-style-type: none;
+    display: inline-flex;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+li {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: rgb(99, 93, 93);
+
+}
+li:hover {
+  cursor: pointer;
+}
+
+ul li ul {
+  visibility: hidden;
+opacity: 0;
+  position: absolute;
+transition: all 0.5s ease;
+margin-top: 20px;
+left: 90px;
+display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+visibility: visible;
+opacity: 1;
+display: block;
+}
+
+.menu2 li {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    opacity: 1;
+    padding-top: 20px;
+    padding-left: 10px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 50px;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  .container:hover .logo {
+    opacity: 0.2;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text3 {
+    margin-top: 25px;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+  }
+  .text-1 {
+      background-color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+      margin-bottom: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: inherit;
+      margin-top: 60px;
+  }
+
+  .text-2 {
+    background-color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: inherit;
+  }
+  .text {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .contact-us-form {
+    text-align: center;
+    margin-top: 40px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .name, .mail, .message {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace ;
+  }
+input {
+  width: 400px;
+  height: 25px;
+  border-radius: 25px;
+}
+input:focus {
+  border-color: darkturquoise;
+  outline: none;
+
+}
+textarea {
+    resize: none;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+textarea:focus{
+  outline-color: turquoise;
+}
+  ::placeholder {
+    margin-right: 100px;
+  }
+
+  .submit {
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .text2 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  .mapouter {
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 40px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+   color: grey;
+    font-size: 10px;
+    padding: 20px;
+    background-color: turquoise;
+  }
+
+  .form2 {
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .name2, .surname, .mail, .occupationlist, #occupation, .birthday, .address, #street2, #city, #postcode, .form-control, .submit {
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  select {
+    border-radius: 25px;
+    width: 15%;
+  }
+
+  select:focus {
+    outline: none;
+    border-color: turquoise;
+  }
+
+.submit {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar2 .menu3{
+  list-style-type: none;
+  display: inline-flex;
+  padding-right: 50px;
+  padding-top: 10px;
+}
+
+.Profile, .Notifications, .Contact {
+  padding-right: 50px;
+}
+#Right {
+  float: right;
+}
+#menu4 {
+  width: 15px;
+  margin-right: 40px;
+}
+
+.City {
+  margin-top:50px;
+  text-align: center;
+  opacity: 0.2;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+
+.D1, .D2, .D3, .D4, .D5, .D6 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.offer1 {
+  border:3px;
+  border-color: turquoise;
+  padding: 1rem;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: inherit;
+}
+
+#myBtn, #newBtn, #newerBtn, #newestBtn {
+  border: none;
+  background-color: inherit;
+  font-size: 30px;
+  cursor: pointer;
+  outline:none;
+}
+
+#apply {
+  border: 4px;
+  background-color: turquoise;
+  outline-color: turquoise;
+  font-size: 20px;
+}
+
+#more, #more2, #more3, #more4 {
+  display: none;
+}
+
+.offer2 {
+  margin-top: 50px;
+  border:3px;
+  border-color: turquoise;
+  padding: 1rem;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: inherit;
+}
+
+.offer3 {
+  margin-top: 50px;
+  border:3px;
+  border-color: turquoise;
+  padding: 1rem;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: inherit;
+}
+
+.offer4 {
+  margin-top: 50px;
+  border:3px;
+  border-color: turquoise;
+  padding: 1rem;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: inherit;
+}
+
+.btn-group {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-right: 3px;
+}
+
+.btnpage {
+  outline-color: turquoise;
+  border-radius: 25px;
+}
+
+#message {
+  font-family: 'Courier New', Courier, monospace;
+  font-style: solid;
+  font-size: 30px;
+  text-align:center;
+  margin-top: 200px;
+}
+
+.msg {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: turquoise;
+  margin-top: 50px;
+}
