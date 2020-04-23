@@ -1,72 +1,41 @@
 <!DOCTYPE html>
 <head>
-    <title> Registration form </title>
+    <title>Profile</title>
     <meta charset="UTF-8">
     <meta name="author" content="Marah Rayan">
     <meta name="viewport" content="width=device-width, initial-scale=1,0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/JavaScript" src="javaScript.js"></script>
 </head>
-<body>
-    <nav class="navbar">
-<ul class="menu1">
-    <li class="Home menu1"><a href="index.html"> Home </a></li>
-    <li class= "Register menu1 dropdown"><a href="Register.html"> Register </a>
-    
-      <ul class="menu2">
-        <li> As Employer </li>
-        <li> <a href="Register.html"> As Freelancer </li>
-    </ul></li>
-    <li class="About menu1"><a href="About.html"> About </a></li>
-    <li class="Contact menu1"><a href="#Contact">Contact</a></li>
-</ul> 
-    </nav>
-    <div id="register-form">
-        <p class="text">Complete this form to register</p>
-    </div>
-    <hr width="100">
-    <div class="form2">
-        <form action="Thankyou.html" method="Get" Class="Registeration">
-            <div class="name2">
-                <input type="text" id="name" name="fname" placeholder="First name">
-            </div>
-            <div class="surname">
-                <input type="text" id="surname" name="lname" placeholder="Last name">
-            </div>
-            <div class="mail">
-                <input type="email" id="mail" name="user-mail" placeholder="Email">
-            </div>
-            <div class="occupationlist">
-                <label for="occupation">Occupation:</label>
-                <select id="occupation">
-                    <option value="Editorial journalist">Editorial Journalist</option>
-                    <option value="Correspondent">Correspondent</option>
-                    <option value="Videographer">Videographer</option>
-                </select>
-            </div>
-            <div class="birthday">
-                <label for="birthday">Date of birth</label>
-                <div>
-                <input type="date" id="birthday" name="birthday">
-                </div>
-            </div>
-            <div class="address">
-                <label for="Address">Address</label>
-                <div>
-                <input type="text" id="street" Name="street" placeholder="Street">
-                </div>
-                <div>
-                <input type="text" id="street2" name="street2">
-                </div>
-                <div>
-                <input type="text" id="city" name="City" placeholder="City">
-                </div>
-                <div>
-                <input type="text" id="postcode" name="Postcode" placeholder="Postcode">
-                </div>
-                <div>
-            <label for="Country">Country:</label>
-            <select id="country" name="country" class="form-control">
+<nav class="navbar3">
+    <ul class="menu5">
+        <li class="Home2"><a href="index.html"> Home </a></li>
+        <li class="Offers2"><a href="Offers.html"> Offers </a></li>
+        <li class="About2"><a href="About.html"> About </a></li>
+        <li class="Contact2"><a href="#Contact">Contact</a></li>
+        <li class="right"><i class="fa fa-globe"></i></li>
+        <select id="menu4">
+            <option></option>
+            <option value="English"> English </option>
+            <option value="Arabic"> عربي </option>
+        </select>
+    </ul> 
+        </nav>
+        <div class="wrapper">
+        <div class="border inl">
+            <div class="center">
+        <button class="upload">Upload your image</button>
+        </div>
+        </div>
+        <div class="align">Martin Smith</div>
+        </div>
+        <div>
+            <button class="CV">Upload your CV</button>
+        </div>
+        <div class="place">
+        <label for="Country2">Country:</label>
+            <select id="country2" name="country" class="form-control2">
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
                 <option value="Albania">Albania</option>
@@ -313,15 +282,16 @@
                 <option value="Zimbabwe">Zimbabwe</option>
             </select>
             </div>
-            </div>
-            <div class="submit">
-                <input type="submit" value="Submit" class="submit" onclick="pageRedirect()">
-            </div>
-        </form>
-    </div>
-    <footer>&copy; Copyright 2020 Top of the hour
-        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/login" class="fa fa-twitter"></a>
-    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-    </footer>
-</body>
+        <hr class="line" width="100">
+        <div class="socialmedia">
+            <p class="sm"> your social media accounts: </p>
+            <a href="https://www.facebook.com/" class="fa fa-facebook fa-lg"></a>
+    <a href="https://twitter.com/login" class="fa fa-twitter fa-lg"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram fa-lg"></a>
+        </div>
+        <footer>&copy; Copyright 2020 Top of the hour
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/login" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </footer>
+    </body>
