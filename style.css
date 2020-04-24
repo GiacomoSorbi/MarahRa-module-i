@@ -4,6 +4,14 @@
     padding-right: 50px;
     padding-top: 10px;
 }
+#label {
+  margin-left: 50px;
+  font-size: 25px;
+  display: none;
+}
+#toggle {
+  display: none;
+}
 li {
     list-style-type: none;
     font-family: 'Courier New', Courier, monospace;
@@ -69,7 +77,7 @@ img {
   .container:hover .middle {
     opacity: 1;
   }
-  
+
   .text3 {
     margin-top: 25px;
     margin: 0 auto;
@@ -290,7 +298,7 @@ textarea:focus{
   border-radius: 25px;
 }
 
-#message {
+.message {
   font-family: 'Courier New', Courier, monospace;
   font-style: solid;
   font-size: 30px;
@@ -381,4 +389,86 @@ list-style-type: none;
   text-align: center;
 }
 
+@media screen and (max-width: 600px) {
+#label {
+  display: block;
+  cursor: pointer;
+}
+.navbar, .navbar2, .navbar3{
+  display: flex;
+  margin-left: 25px;
+  display:none;
+}
+.navbar .menu1 {
+  display: block;
+}
+.navbar2 .menu3 {
+  display:block;
+}
+.navbar3 .menu5 {
+  display: block;
+}
+#toggle:checked ~ .navbar {
+  display: block;
+}
+#toggle:checked ~ .navbar2 {
+  display:block;
+}
+#toggle:checked ~ .navbar3 {
+  display:block;
+}
+img {
+  width: 375px;
+  height: 300px;
+  opacity: 1;
+  padding-top: 20px;
+  padding-left: 10px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  margin-bottom: 50px;
+}
+.middle{
+  top: 30%;
+  left: 50%;
+}
+.text-1, .text-2 {
+  font-size: 13px;
+}
 
+.text3 {
+  margin-top: 10px;
+  font-size: 15px;
+  width: 100%;
+}
+.text {
+  font-size: 20px;
+}
+input {
+  width: 300px;
+}
+textarea {
+  width: 350px;
+  height: 150;
+}
+.text2 {
+  font-size: 17px;
+}
+#gmap_canvas {
+  width: 375px;
+  height: 300px;
+}
+.message, .City {
+  font-size: 20px;
+}
+.msg {
+  font-size: 15px;
+}
+#myBtn, #newBtn, #newerBtn, #newestBtn {
+font-size: 20px;
+}
+.offer1, .offer2, .offer3, .offer4 {
+  border: 2px;
+  border-style: dashed;
+  border-color: turquoise;
+}
+}
