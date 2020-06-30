@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .navbar .menu1 {
   list-style-type: none;
   display: inline-flex;

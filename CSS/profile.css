@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 .navbar3 .menu5 {
   list-style-type: none;
   display: inline-flex;
