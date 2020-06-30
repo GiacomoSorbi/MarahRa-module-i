@@ -1,0 +1,274 @@
+.navbar .menu1 {
+  list-style-type: none;
+  display: inline-flex;
+  padding-right: 50px;
+}
+
+#label {
+  margin-left: 50px;
+  font-size: 25px;
+  display: none;
+}
+#toggle {
+  display: none;
+}
+li {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: rgb(99, 93, 93);
+}
+li:hover {
+  cursor: pointer;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+  left: 90px;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.menu2 li {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#menu4 {
+  width: 15px;
+  margin-right: 40px;
+}
+img {
+  opacity: 1;
+  padding-top: 20px;
+  padding-left: 10px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  margin-bottom: 50px;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.container:hover .logo {
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text3 {
+  margin-top: 25px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  color: rgb(99, 93, 93);
+}
+.text-1 {
+  background-color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+  margin-top: 60px;
+}
+
+.text-2 {
+  background-color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+}
+.text {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(99, 93, 93);
+}
+
+.contact-us-form {
+  text-align: center;
+  margin-top: 40px;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder {
+  text-align: center;
+}
+.name,
+.mail,
+.message {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-label {
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+input {
+  width: 400px;
+  height: 25px;
+  border-radius: 25px;
+}
+input:focus {
+  border-color: darkturquoise;
+  outline: none;
+}
+textarea {
+  resize: none;
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+textarea:focus {
+  outline-color: turquoise;
+}
+
+.submit {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 3.5rem;
+  color: rgb(99, 93, 93);
+}
+.Contact-us {
+  float: left;
+  margin-left: 10rem;
+}
+.mapouter {
+  text-align: center;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 10px;
+  padding: 20px;
+  background-color: black;
+}
+
+.message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: solid;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.msg {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: turquoise;
+  margin-top: 50px;
+}
+@media screen and (max-width: 600px) {
+  #label {
+    display: block;
+    cursor: pointer;
+  }
+  .navbar {
+    display: flex;
+    margin-left: 25px;
+    display: none;
+  }
+  .navbar .menu1 {
+    display: block;
+  }
+
+  #toggle:checked ~ .navbar {
+    display: block;
+  }
+
+  img {
+    width: 375px;
+    height: 300px;
+    opacity: 1;
+    padding-top: 20px;
+    padding-left: 10px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 50px;
+  }
+  .middle {
+    top: 30%;
+    left: 50%;
+  }
+  .text-1,
+  .text-2 {
+    font-size: 13px;
+  }
+
+  .Contact-us {
+    margin: 1.5rem;
+  }
+
+  .text3 {
+    font-size: 15px;
+    width: 100%;
+  }
+  .text {
+    font-size: 20px;
+  }
+  input {
+    width: 200px;
+  }
+  textarea {
+    width: 350px;
+    height: 150;
+  }
+
+  .text2 {
+    font-size: 20px;
+  }
+  #gmap_canvas {
+    width: 375px;
+    height: 300px;
+  }
+  .message,
+  .City {
+    font-size: 20px;
+  }
+  .msg {
+    font-size: 15px;
+  }
+}
