@@ -1,10 +1,14 @@
 body {
-  min-height: 100vh;
+  margin: 0;
 }
 .navbar .menu1 {
   list-style-type: none;
   display: inline-flex;
   padding-right: 50px;
+}
+
+.phonemenu {
+  min-height: 100vh;
 }
 #label {
   margin-left: 50px;
