@@ -117,6 +117,9 @@ footer {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
   #label {
     display: block;
     cursor: pointer;

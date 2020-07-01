@@ -221,7 +221,9 @@ footer {
   #toggle:checked ~ .navbar {
     display: block;
   }
-
+  .container {
+    margin-left: 10px;
+  }
   img {
     width: 375px;
     height: 300px;
@@ -247,7 +249,7 @@ footer {
 
   .text3 {
     font-size: 15px;
-    width: 100%;
+    width: 80%;
   }
   .text {
     font-size: 20px;

@@ -7,9 +7,6 @@ body {
   padding-right: 50px;
 }
 
-.phonemenu {
-  min-height: 100vh;
-}
 #label {
   margin-left: 50px;
   font-size: 25px;
@@ -226,12 +223,17 @@ footer {
   .newsroom1 {
     display: none;
   }
+  .imgdescription,
+  .newsdescription {
+    font-size: 12px;
+  }
   .service1,
   .service2 {
     display: block;
     width: 80%;
     margin: 0;
     text-align: center;
+    padding: 20px;
   }
   .meet {
     font-size: 20px;
