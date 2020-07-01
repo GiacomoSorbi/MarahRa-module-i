@@ -170,7 +170,7 @@ textarea:focus {
   margin-top: 3.5rem;
   color: rgb(99, 93, 93);
 }
-.Contact-us {
+#Contact-us {
   float: left;
   margin-left: 10rem;
 }
@@ -243,7 +243,7 @@ footer {
     font-size: 13px;
   }
 
-  .Contact-us {
+  #Contact-us {
     margin: 1.5rem;
   }
 

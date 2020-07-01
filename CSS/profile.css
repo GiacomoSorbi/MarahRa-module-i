@@ -60,8 +60,8 @@ a {
 }
 
 .border {
-  margin-top: 100px;
-  margin-left: 200px;
+  margin-top: 40px;
+  margin-left: 13rem;
   width: 300px;
   height: 400px;
   border: 3px;
@@ -79,6 +79,7 @@ a {
   border-radius: 25px;
   border-color: turquoise;
   outline: none;
+  text-align: center;
 }
 
 .align {
@@ -155,6 +156,7 @@ footer {
     margin-left: 4.5rem;
     width: 150px;
     margin-top: 120px;
+    text-align: center;
   }
   .align {
     margin-left: 9.5rem;
