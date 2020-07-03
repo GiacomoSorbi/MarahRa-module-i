@@ -67,7 +67,7 @@ function clicked() {
   alert("Thank you for applying!");
 }
 
-const form = document.getElementsByTagName("form");
+const form = document.getElementsByTagName("form")[0];
 const email = document.getElementById("mail");
 const emailError = document.querySelector("#mail + span.error");
 
