@@ -115,6 +115,10 @@ a {
   text-align: center;
   margin-top: 30%;
 }
+.line {
+  width: 15%;
+  margin-bottom: 30px;
+}
 .team {
   text-align: center;
 }
@@ -231,7 +235,7 @@ footer {
   }
   .meet {
     font-size: 20px;
-    margin-top: 50%;
+    margin-top: 9rem;
   }
   .team,
   .namesm {
