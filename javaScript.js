@@ -67,6 +67,35 @@ function clicked() {
   alert("Thank you for applying!");
 }
 
+const form = document.getElementsByTagName("form");
+const email = document.getElementById("mail");
+const emailError = document.querySelector("#mail + span.error");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.valid) {
+    emailError.innerHTML = "";
+    emailError.className = "error";
+  } else {
+    showError();
+  }
+});
+
+form.addEventListener("submit", function (event) {
+  if (!email.validity.valid) {
+    showError();
+  }
+  event.preventDefault();
+});
+
+function showError() {
+  if (email.validity.valueMissing) {
+    emailError.textContent = "Please provide an email address";
+  } else if (email.validity.typeMismatch) {
+    emailError.textContent = "Please enter a valid email address";
+  }
+  emailError.className = "error active";
+}
+
 var openPopUp = document.querySelectorAll("[data-modal-target]");
 var closePopUp = document.querySelectorAll("[data-close-button]");
 

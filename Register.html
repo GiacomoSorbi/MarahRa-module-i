@@ -12,6 +12,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 </head>
 <body>
+    
         <label id="label" for="toggle">&#8801</label>
         <input type="checkbox" id="toggle">
     <nav class="navbar" >
@@ -32,7 +33,7 @@
     </div>
     <hr width="100">
     <div class="form2">
-        <form action="Thankyou.html" method="Get" Class="Registeration">
+        <form action="Thankyou.html" method="Get" Class="Registeration" novalidate>
             <div class="name2">
                 <input type="text" id="name" name="fname" placeholder="First name" aria-label="First name">
             </div>
@@ -40,7 +41,8 @@
                 <input type="text" id="surname" name="lname" placeholder="Last name" aria-label="Last Name">
             </div>
             <div class="mail">
-                <input type="email" id="mail" name="user-mail" placeholder="Email" aria-label="Email">
+                <input type="email" id="mail" name="user-mail" placeholder="Email" aria-label="Email" required>
+                <span class="error" aria-live="polite"></span>
             </div>
             <div class="occupationlist">
                 <label for="occupation">Occupation:</label>
@@ -330,5 +332,7 @@
     <a href="https://twitter.com/login" class="fa fa-twitter"></a>
     <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
     </footer>
+    <script type="text/JavaScript" src="javaScript.js"></script>
 </body>
+
 </html>
