@@ -84,7 +84,6 @@ form.addEventListener("submit", function (event) {
   if (!email.validity.valid) {
     showError();
   }
-  event.preventDefault();
 });
 
 function showError() {

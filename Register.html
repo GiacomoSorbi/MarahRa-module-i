@@ -32,49 +32,41 @@
         <p class="text">Complete this form to register</p>
     </div>
     <hr width="100">
-    <div class="form2">
+        <div class="form">
         <form action="Thankyou.html" method="Get" Class="Registeration">
-            <div class="name2">
-                <input type="text" id="name" name="fname" placeholder="First name" aria-label="First name" required>
-            </div>
-            <div class="surname">
-                <input type="text" id="surname" name="lname" placeholder="Last name" aria-label="Last Name" required>
-            </div>
-            <div class="mail">
-                <input type="email" id="mail" name="user-mail" placeholder="Email" aria-label="Email" novalidate required>
+            
+                <input class="field" type="text" id="name" name="fname" placeholder="First name" aria-label="First name" required>
+            
+            
+                <input class="field"type="text" id="surname" name="lname" placeholder="Last name" aria-label="Last Name" required>
+            
+                <input class="field" type="email" id="mail" name="user-mail" placeholder="Email" aria-label="Email" required>
                 <span class="error" aria-live="polite"></span>
-            </div>
-            <div class="occupationlist">
-                <label for="occupation">Occupation:</label>
+            
+                <label class="field" for="occupation">Occupation:</label>
                 <select id="occupation" required>
                     <option value="Editorial journalist">Editorial Journalist</option>
                     <option value="Correspondent">Correspondent</option>
                     <option value="Videographer">Videographer</option>
                 </select>
-            </div>
-            <div class="birthday">
+           
+            <div class="label-form">
                 <label for="birthday">Date of birth</label>
-                <div>
-                <input type="date" id="birthday" name="birthday" required>
-                </div>
+            
+                <input class="field" type="date" id="birthday" name="birthday" required>
             </div>
-            <div class="address">
-                <label for="Address">Address</label>
-                <div>
-                <input type="text" id="street" Name="street" placeholder="Street" aria-label="Street" required>
+                <div class="label-form">
+                <label class="label-title" for="Address">Address</label>
+                <input class="field" type="text" id="street" Name="street" placeholder="Street" aria-label="Street" required>
                 <span class="error-one" aria-live="polite"></span>
+                
+                <input class="field" type="text" id="street2" name="street2">
+               
+                <input class="field" type="text" id="city" name="City" placeholder="City" aria-label="City" required>
+                
+                <input class="field" type="text" id="postcode" name="Postcode" placeholder="Postcode" aria-label="Postcode" required>
                 </div>
-                <div>
-                <input type="text" id="street2" name="street2">
-                </div>
-                <div>
-                <input type="text" id="city" name="City" placeholder="City" aria-label="City" required>
-                </div>
-                <div>
-                <input type="text" id="postcode" name="Postcode" placeholder="Postcode" aria-label="Postcode" required>
-                </div>
-                <div>
-            <label for="Country">Country:</label>
+            <label class="field" for="Country">Country:</label>
             <select id="country" name="country" class="form-control" required>
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
@@ -321,11 +313,10 @@
                 <option value="Zambia">Zambia</option>
                 <option value="Zimbabwe">Zimbabwe</option>
             </select>
-            </div>
-            </div>
-            <div class="submit">
-                <input type="submit" value="Submit" class="submit">
-            </div>
+            
+     <div class="submit">
+                <input class="field" type="submit" value="Submit" class="submit">
+     </div>
         </form>
     </div>
     <footer>&copy; Copyright 2020 Top of the hour
