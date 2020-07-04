@@ -59,11 +59,29 @@ img {
   opacity: 1;
   padding-top: 20px;
   padding-left: 10px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
   margin-bottom: 50px;
 }
 
 .middle {
-  display: none;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.container:hover .logo {
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
 }
 
 .text3 {
@@ -209,17 +227,14 @@ footer {
   img {
     width: 375px;
     height: 300px;
-    opacity: 1;
     padding-top: 20px;
     padding-left: 10px;
-    transition: 0.5s ease;
-    backface-visibility: hidden;
     margin-bottom: 50px;
   }
   .middle {
-    top: 30%;
-    left: 50%;
+    display: none;
   }
+
   .text-1,
   .text-2 {
     font-size: 13px;
